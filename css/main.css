@@ -1,0 +1,307 @@
+.cover {
+  background-image: url("/img/netflix_background.jpg");
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  border-bottom: 8px solid #222;
+}
+.overlay {
+  z-index: 0;
+  position: absolute;
+  top: -70px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden; /* order in case you're using a different order for other elements */
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.basic__nav {
+  height: 150px;
+}
+.basic__nav img {
+  width: 100px;
+  margin-left: 30px !important;
+}
+.basic__nav button {
+  float: right;
+  margin-right: 30px !important;
+  margin-top: 15px !important;
+  padding: 10px !important;
+}
+.info {
+  padding: 75px 0;
+  height: 500px;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 950px;
+  z-index: 1;
+  justify-content: center;
+}
+.info h1 {
+  color: white;
+  font-size: 3.125rem;
+  font-weight: 900;
+  margin: 0 auto;
+  max-width: 650px;
+}
+.info h2 {
+  margin-top: 20px;
+  color: white;
+  font-size: 1.625rem;
+}
+.info h3 {
+  padding: 20px 0;
+  color: white;
+  max-width: 500px;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.story {
+  padding: 50px 45px;
+  background-color: black;
+  color: white;
+  margin-bottom: 0;
+  border-bottom: 8px solid #222;
+}
+.story .strory__info {
+  max-width: 1100px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.story .story__about {
+  width: 52%;
+  height: 100%;
+}
+.story__about h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.story__about p {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.story .story__gif img {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+.story .story__gif .video_card {
+  width: 100%;
+  height: 100%;
+  max-width: 73%;
+  max-height: 54%;
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.story .story__gif .video_card video {
+  position: relative;
+  width: 100%;
+}
+
+/*Download Section*/
+.download {
+  padding: 50px 45px;
+  background-color: black;
+  color: white;
+  margin-bottom: 0;
+  border-bottom: 8px solid #222;
+}
+.download .download__info {
+  max-width: 1100px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.download .download__gif {
+  margin: -3% 0 -4% -14%;
+  min-height: 100px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.download .download__gif img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+.download .download__about {
+  width: 52%;
+  height: 100%;
+}
+.download__about h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.download__about p {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.card-animation {
+  position: absolute;
+  left: 50%;
+  bottom: 8%;
+  transform: translateX(-50%);
+  margin: 0 auto;
+  background: #000;
+  display: flex;
+  align-items: center;
+  width: 60%;
+  min-width: 15em;
+  padding: 0.25em 0.65em;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 2em 0 #000;
+  border-radius: 0.75em;
+}
+.card-animation-image {
+  margin: 0 1em 0 0;
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 10%;
+}
+.card-animation .card-animation-image img {
+  height: 4em;
+}
+
+/*cross Section*/
+
+.cross {
+  padding: 50px 40px;
+  background-color: black;
+  color: white;
+  margin-bottom: 0;
+  border-bottom: 8px solid #222;
+}
+.cross .cross__info {
+  max-width: 1100px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.cross .cross__about {
+  width: 52%;
+  height: 100%;
+}
+.cross__about h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.cross__about p {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.cross .cross__gif img {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+.cross .cross__gif .video_card {
+  width: 100%;
+  height: 100%;
+  max-width: 55%;
+  max-height: 47%;
+  position: absolute;
+  top: 34%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.cross .cross__gif .video_card video {
+  position: relative;
+  width: 100%;
+}
+
+/*Q & A */
+.quetions {
+  padding: 75px 45px;
+  background-color: black;
+  border-bottom: 8px solid #222;
+}
+.quetions h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 900;
+  color: white;
+}
+.accordion {
+  padding: 50px 45px;
+  margin-bottom: 0;
+  color: white;
+  align-items: center;
+}
+.accordion .card {
+  padding: 0.8em 2.2em 0.8em 1.2em;
+  margin-bottom: 1px;
+  font-weight: 400;
+  position: relative;
+  width: 100%;
+  border: 0;
+  background-color: black;
+}
+.accordion .card-header,
+.accordion .card-body {
+  background-color: #222;
+}
+.accordion .card-header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.accordion .card-header a {
+  font-size: 1.8rem;
+  color: white;
+  text-decoration: none;
+}
+.accordion .card-body {
+  margin-top: 5px;
+  font-size: 1.5rem;
+  padding: 40px 25px;
+}
+/*toggleing betowin plus an minsu */
+.accordion .card-header:after {
+  font-family: "FontAwesome";
+  content: "\f00d";
+  float: right;
+  margin-top: 5px;
+}
+.accordion .card-header.collapsed:after {
+  content: "\f067";
+}
+.quetions h3 {
+  color: white;
+  margin: 0 auto;
+  font-size: 1rem;
+  text-align: center;
+}
+.email_2 {
+  color: white;
+  margin: 0 auto;
+  padding: 50px 45px;
+}
+.input_placement_2 {
+  justify-content: center;
+}
+.email_2 input {
+  height: 48px;
+  padding: 10px 10px 0;
+  width: 90%;
+}
+.email_2 button {
+  margin-left: -16px;
+}
+@media screen and (max-width: 767px) {
+  .btn-group button {
+    margin-top: 15px;
+  }
+}
