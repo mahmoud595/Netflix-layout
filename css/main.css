@@ -86,7 +86,7 @@ img{
 ,.prev3 , .next3,.prev4 , .next4{
     position: absolute;
     top: 60%;
-    font-size: 4em;
+    font-size: 2em;
     background-color :transparent; 
     color:transparent ;
     transform: translateY(-50%);
@@ -96,7 +96,7 @@ img{
 }
 .prev:hover , .next:hover , .prev2:hover , .next2:hover
 ,.prev3:hover , .next3:hover,.prev4:hover , .next4:hover{
-    color: var(--light);
+    color: red;
 }
 .next , .next2 , .next3 , .next4{
     right: 0;
@@ -117,20 +117,35 @@ img:hover {
     }
      .nav1 ,  .nav2,
      .nav3, .nav4{
-        height: auto;
+        height: 300%;
         /* flex-wrap: wrap; */
     }
      .nav-bar{
-        height: auto;
-        flex-wrap: wrap;
+        height: 4em;
+        /* flex-wrap: wrap; */
        /* flex-wrap: wrap; */
         
         transition: 0.5s linear;
     }
     .column , .column2
     ,.column3,.column4{ 
-        width: 25%;
+        /* width: 100%; */
+        /* padding-left:4em; */
+        
     }
+    img {
+        width: 120%;
+        /* height:200%; */
+        /* margin-left: 2em; */
+        /* height: 200%; */
+        
+    }
+  .col1,.col2,.col3,.col4 {
+margin-left: 3em;
+  }
+        
+        
+    
     .prev:hover , .next:hover , .prev2:hover , .next2:hover
     ,.prev3:hover , .next3:hover,.prev4:hover , .next4:hover{
         display: none;
