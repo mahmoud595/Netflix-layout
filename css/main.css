@@ -81,7 +81,9 @@ svg:not(:root) {
  .n-svg {
     display: none;
 }
-
+svg:not(.n-svg), svg:not(.n-svg) path {
+    fill: currentColor;
+}
 
 .helpcenter-logo {
     margin: 0;
@@ -335,7 +337,7 @@ strong {
     .select>svg:hover{
         color: #fff;
     }
-    svg:not(.n-svg) path {
+    svg:not(.n-svg) path .n-svg{
         fill: currentColor;
     }
     .global-footer .footer-links {
@@ -379,5 +381,31 @@ strong {
 }
 .global-header .logo-wrapper {
     display: none;
+}
+}
+@media (max-width: 600px){
+.global-header .branding .netflix-svg {
+    display: none;
+}
+.global-header .branding .n-svg {
+    display: block;
+}
+.branding .helpcenter-logo {
+    display: none;
+}
+
+.global-footer .footer-links {
+    float: none;
+}
+.global-footer .footer-links .legalese-item {
+    text-align: left;
+    
+    
+}
+.global-footer .select-wrapper {
+    float: none;
+    margin: 0 0 24px;
+    width: 58%;
+
 }
 }
