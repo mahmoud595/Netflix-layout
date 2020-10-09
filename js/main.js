@@ -3,7 +3,7 @@ var dots2 =document.querySelectorAll('.column2')
 var dots3 =document.querySelectorAll('.column3')
 var dots4 =document.querySelectorAll('.column4')
 
-var nav = document.querySelector(".nav")
+var nav = document.querySelector(".nav1")
 var nav2 = document.querySelector(".nav2")
 var nav3 = document.querySelector(".nav3")
 var nav4 = document.querySelector(".nav4")
