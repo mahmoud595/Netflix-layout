@@ -1,0 +1,747 @@
+body {
+    height: 100%;
+    margin: 0;
+    background: #fff;
+    color: #221f1f;
+    font-family:Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 28px;
+    -webkit-font-smoothing: antialiased;
+}
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 40px;
+}
+h2, h3 {
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+h2 {
+    font-size: 24px;
+    line-height: 32px;
+}
+p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 28px;
+    margin: 0 0 16px;
+}
+ul {
+    list-style: none;
+}
+
+.global-container {
+    margin-bottom: -256px;
+    min-height: 100%;
+}
+
+.global-header {
+    position: relative;
+    background: #000;
+}
+.global-header>.container-nav {
+    position: relative;
+    padding-top: 16px;
+}
+
+.container-nav {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0 48px;
+}
+
+.global-header .inner-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+
+
+.global-header .branding {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 0 0;
+    padding-right: 24px;
+}
+a {
+    color: #e50914;
+    font-weight: 400;
+    text-decoration: none;
+}
+/* section {
+    display: block;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+} */
+
+svg {
+    vertical-align: middle;
+    width: 88px;
+    height: 32px;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+:not(svg) {
+    transform-origin: 0px 0px;
+}
+
+ .n-svg {
+    display: none;
+}
+svg:not(.n-svg), svg:not(.n-svg) path {
+    fill: currentColor;
+}
+
+.helpcenter-logo {
+    margin: 0;
+    font-size: 18px;
+    line-height: 32px;
+    white-space: nowrap;
+    color: #f5f5f1;
+
+}
+.helpcenter-logo:hover{
+color: white;
+text-decoration: underline;
+}
+
+
+.actions {
+    flex: 1 0;
+    float: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 0 0 16px;
+    justify-content: flex-end;
+}
+
+
+.btn.free-month, .global-header .actions .free-month.select {
+    height: auto;
+    flex-shrink: 1;
+    white-space: normal;
+}
+/* .btn, .global-header .actions .select {
+    font-size: 12px;
+    line-height: 14px;
+    padding: 8px;
+    width: auto;
+    
+} */
+
+.btn.btn-light {
+    background: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+
+
+ .free-month.select {
+    height: auto;
+    flex-shrink: 1;
+    white-space: normal;
+}
+.netflix-svg:hover {
+    color: red;
+}
+ .select {
+    font-size: 12px;
+    line-height: 14px;
+    padding: 8px;
+    width: auto;
+    
+}
+.btn-light.select, .btn.btn-light {
+    background: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn, .select {
+ 
+    font-weight: 700;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-family: Netflix Sans,Helvetica,Arial,sans-serif;
+  letter-spacing: .01em;
+    min-width: 96px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: color .15s ease,background-color .15s ease;
+    user-select: none;
+    vertical-align: middle;
+  
+}
+.btn:hover{
+background-color: #f5f5f1;
+color: #000;
+}
+.btn.sign-in-link, .global-header .actions .sign-in-link.select {
+    margin-left: 16px;
+}
+
+.global-header .actions .btn, .global-header .actions .select {
+    font-size: 12px;
+    line-height: 14px;
+    padding: 8px;
+    width: auto;
+    flex-shrink: 0;
+}
+.btn.btn-primary {
+    background: #e50914;
+    border-color: #e50914;
+    color: #fff;
+}
+
+.global-header .logo-wrapper {
+    padding: 0 0 16px;
+    line-height: 18px;
+}
+.global-header .logo-wrapper .helpcenter-logo {
+    margin: 0;
+    color: #f5f5f1;
+    line-height: 18px;
+    font-weight: 800;
+}
+
+.global-content {
+    padding: 24px 0 32px;
+  height: 900px;
+    padding-bottom: 80px;
+}
+
+.btn.btn-lightgrey {
+    background: #fff;
+    border-color: #8b8a88;
+    color: #4c4948;
+    padding : 0.7em
+}
+.btn.btn.btn-lightgrey:hover {
+    background-color:#eee;
+}
+
+
+ ol {
+    list-style-type: decimal;
+    padding-left: 32px;
+}
+
+.page-block ol>li {
+    padding-left: 0;
+}
+.page-block ol li {
+    margin: 0 0 8px;
+    padding:0;
+    position: relative;
+}
+ li>p {
+    display: inline;
+}
+strong {
+    font-weight: 700;
+}
+/* ::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+} */
+ .underline {
+    text-decoration: underline;
+}
+
+.select-grey {
+    border:1px solid #8b8a88;
+    color: #8b8a88;
+}
+
+.dark-area .select {
+    padding: 0;
+    position: relative;
+}
+.dark-area .select {
+    padding: 0;
+    position: relative;
+}
+.dark-area .select {
+    font-size: 16px;
+    font-weight: 700;;
+    line-height: 15px;
+    cursor: pointer;
+    border-radius: 2px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-family: Netflix Sans,Helvetica,Arial,sans-serif;
+    height: 48px;
+    letter-spacing: .01em;
+    min-width: 96px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: color .15s ease,background-color .15s ease;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;}
+
+    .select.select-grey select {
+        color: #fff;
+    }
+    .select-wrapper:hover{
+       color: #fff;
+        background-color:#8b8a88 ;
+    }
+   .dark-area .select select {
+        appearance: none;
+        font-size: 16px;
+        font-weight: 700;
+        background: none;
+        border: 0;
+        cursor: pointer;
+        line-height: 20px;
+        outline: none;  
+        padding: 13px 45px 13px 16px;
+        position: relative;
+        text-overflow: ellipsis;
+        text-transform: uppercase;
+        vertical-align: middle;
+        white-space: nowrap;
+        width: 100%;
+        z-index: 1;
+    }
+    .select select option {
+        color: #000;
+    }
+    .select.select-grey svg {
+        color: #fff;
+    }
+ 
+    .select>svg {
+        height: 24px;
+        pointer-events: none;
+        position: absolute;
+        right: 12px;
+        top: 10px;
+        width: 24px;
+        z-index: 0;
+    }
+    .select>svg:hover{
+        color: #fff;
+    }
+    svg:not(.n-svg) path .n-svg{
+        fill: currentColor;
+    }
+
+     .content {
+        border-bottom: 1px solid #d5d4d1;
+        margin: 0 0 24px;
+        padding: 0 0 24px;
+    }
+
+     .left-pane {
+        float: left;
+        width: 68%;
+    }
+     .left-pane .channel {
+        float: left;
+        padding-top: 8px;
+        width: 100%;
+    }
+ 
+
+     .badges {
+        margin: 0 0 24px;
+    }
+    .badges:after {
+        clear: both;
+        content: "";
+        display: table;
+    }    
+    .content:after {
+        clear: both;
+        content: "";
+        display: table;
+    }
+    .badges::selection {
+        background: #4c4948;
+        color: #fff;
+    }
+    .badges .appstore-badge {
+        display: block;
+        float: left;
+        margin: 0 16px 0 0;
+    }
+  .channel .mobile-badges {
+        height: 50px;
+        white-space: nowrap;
+    }
+
+   .channel .mobile-badge {
+        display: inline-block;
+        margin: 0 8px 0 0;
+    }
+
+    .appstore-badge.badge-android {
+        background-image: url(https://help.nflxext.com/helpcenter/deb7c3e60fbabd81678a7b77c779ef51.png);
+        background-size:150px auto;width:128.88889px
+ 
+    }
+    .appstore-badge.badge-android::selection {
+        background: #4c4948;
+        color: #fff;
+    }
+
+    .appstore-badge {
+        background-position: 50%;
+        background-repeat: no-repeat;
+        display: block;
+        height: 50px;
+        overflow: hidden;
+    }
+     .channel .mobile-badge:last-of-type {
+        margin: 0 0 0 8px;
+    }
+
+     .channel .mobile-badge {
+        display: inline-block;
+    }
+    .appstore-badge.badge-ios {
+        background-image: url(https://help.nflxext.com/helpcenter/40db11c8ecf6a87ed4c2e1c22c80c44f.svg);
+        background-size: 120px auto;
+        width: 120px;
+    }
+
+    /* .phone-popover .hrs-of-operation p {
+        margin-top: 16px;
+    }
+    .channel .phone-popover .phone-disclaimer p {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+    }     */
+ 
+     .content p:last-child {
+        margin: 0;
+    }
+    /* .popover .popover-close {
+        background: url(https://help.nflxext.com/helpcenter/180ec25….svg) 50% no-repeat;
+        border: 0;
+        cursor: pointer;
+        display: block;
+        height: 24px;
+        overflow: hidden;
+        position: absolute;
+        right: 8px;
+        text-indent: -9999em;
+        top: 8px;
+        width: 24px;
+    } */
+     .download-app-title {
+        margin-bottom: 8px;
+    }
+     .content:last-of-type {
+        border: 0;
+        margin: 0;
+        padding: 0;
+    }
+     .left-pane .channel {
+        float: left;
+        padding-top: 8px;
+        width: 100%;
+    }
+    /* .popover-wrapper {
+        position: relative;
+    }
+    .popover .popover-content .popover-title:only-child {
+        margin: 0;
+    }
+    .popover .popover-title {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+        
+    } */
+
+    ul li{
+        margin: 0  0 8px ;
+        padding: 0 0 0 20px;
+        position: relative;
+    }
+
+        /* .channel .help-option {
+            background: #fff;
+            border-bottom: 1px solid #d5d4d1;
+            margin: 0;
+            padding: 0!important;
+        } */
+
+    .content ol li:before, .content ul li:before, .page-block ol li:before, .page-block ul li:before {
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 28px;
+        content: "";
+        height: 24px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 24px;
+    }
+    .content.dense ol li:before, .content.dense ul li:before, .page-block.dense ol li:before, .page-block.dense ul li:before {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        height: 24px;
+        width: 24px;
+    }
+    ul li:after {
+        background: #221f1f;
+        border-radius: 50%;
+        content: "";
+        height: 6px;
+        left: 9px;
+        position: absolute;
+        top: 9px;
+        width: 6px;
+    }
+    .help-option a {
+        color: #4c4948;
+        display: block;
+        /* padding: 8px 24px 8px 16px; */
+        position: relative;
+    }
+    .help-option a:hover {
+        text-decoration: underline;
+        color: red;
+    }
+    .selfhelp-options {
+        padding-inline-start: 0px;
+        margin: 0 0 40px;
+
+    }
+    .selfhelp-options+.popover-footer {
+        border: 0;
+        margin: 0;
+        padding: 0;
+    }
+ 
+ 
+     .content p:last-child {
+        margin: 0;
+    }
+
+
+
+
+
+
+    .form-control {
+        font-size: 17px;
+        line-height: 28px;
+        appearance: none;
+        border: 1px solid #d5d4d1;
+        border-radius: 4px;
+        box-sizing: border-box;
+        display: block;
+        font-weight: 400;
+        outline: none;
+        padding: 17px 16px;
+        width: 100%;
+    }
+
+
+    .btn.btn-primary {
+        background: #e50914;
+        border-color: #e50914;
+        color: #fff;
+    }
+    .hidden {
+        display: none;
+    }
+     .channel .chat-popover .are-you-a-member {
+        min-width: 280px;
+    }
+    .btn.btn-secondary {
+        background: #fff;
+        border-color: #e50914;
+        color: #e50914;
+    }
+    .btn.btn-block {
+        display: block;
+        width: 100%;
+    }
+     .content p:last-child {
+        margin: 0;
+    }
+    .right-pane {
+        float: left;
+        padding: 88px 0 0;
+        width: 32%;
+    }
+    .right-pane>.wrapper {
+        padding-left: 40px;
+    }
+    .content .p {
+        border: 0;
+    }
+
+    .content.no-border {
+        border-bottom: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .content ul li:last-of-type {
+        padding-bottom: 0;
+    }
+    .react-autosuggest__container {
+        position: relative;
+    }
+
+    .react-autosuggest__container .search-control-wrapper {
+        position: relative;
+    }
+
+    .react-autosuggest__container .form-control {
+        border-color: #8b8a88;
+        padding: 9px 16px 9px 56px;
+    }
+
+    .react-autosuggest__container .search-control {
+        appearance: none;
+        pointer-events: none;
+        background: url(https://help.nflxext.com/helpcenter/476893160abc8a329826b2b5a0b3aef3.svg) 50% no-repeat;
+        border: 0;
+        outline: 0;
+        position: absolute;
+        top: 50%;
+        left: 16px;
+        display: block;
+        width: 24px;
+        height: 24px;
+        margin-top: -12px;
+        text-indent: -9999em;
+        z-index: 1;
+        box-shadow: none;
+        padding: 0;
+    }
+    .footer-push {
+        height:260px;
+    }
+    .global-footer {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        background: #221f1f;
+        display: block;
+        height:260px;
+    }
+    .global-footer>.dark-area {
+        padding-bottom: 72px;
+        padding-top: 40px;
+    }
+    .global-footer .select-wrapper {
+        float: left;
+    }
+    .global-footer .footer-links {
+        float: right;
+        margin: 0;
+    }
+    .global-footer .footer-links .legalese-item {
+        float: left;
+        margin-left: 32px;
+    }
+    .global-footer>.dark-area a {
+        color: #8b8a88;
+    }
+    .global-footer>.dark-area a:hover {
+        text-decoration: underline;
+        color: white;
+    }
+    .global-footer .footer-links:after {
+        clear: both;
+        content: "";
+        display: table;
+    }
+
+@media (min-width: 600px){
+.global-header .branding .logo {
+    position: relative;
+    margin-right: 33px;
+}
+.helpcenter-logo {
+    display: block;
+    padding: 0;
+}
+.logo:after {
+    background: #f5f5f1;
+    content: "";
+    height: 24px;
+    left: 100%;
+    margin-left: 16px;
+    position: absolute;
+    top: 4px;
+    width: 1px;
+}
+.global-header .logo-wrapper {
+    display: none;
+}
+}
+@media (max-width: 600px){
+.global-header .branding .netflix-svg {
+    display: none;
+}
+.global-header .branding .n-svg {
+    display: block;
+}
+.branding .helpcenter-logo {
+    display: none;
+}
+
+.global-footer .footer-links {
+    float: none;
+}
+.global-footer .footer-links .legalese-item {
+    text-align: left;
+    
+    
+}
+.global-footer .select-wrapper {
+    float: none;
+    margin: 0 0 24px;
+    width: 50%;
+
+}
+.container-nav {
+    padding: 0 16px;
+}
+
+.global-content {
+    padding-bottom: 32px;
+    padding-top: 24px;
+}
+}
+
+
+
+@media (max-width: 900px){
+ .right-pane {
+    display: none;
+}
+ .left-pane {
+    float: none;
+    width: 100%;
+}   
+}
