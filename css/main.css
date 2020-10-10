@@ -1,0 +1,124 @@
+body, html {
+    background: #141414;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(20, 20, 20);
+    color: #fff;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 10px;
+    line-height: 1.2;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+/* modal more info */
+.vertical-alignment-helper {
+    display: table;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+}
+
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events: none;
+}
+span ,p{
+    font-size: 14px;
+}
+.modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width: inherit;
+    max-width: inherit; /* For Bootstrap 4 - to avoid the modal window stretching full width */
+    height: inherit;
+    background-color: rgb(20, 20, 20);
+    /* To center horizontally */
+    margin: 0 auto;
+    pointer-events: all;
+}
+
+modal{
+    line-height: 1.2;
+    -webkit-font-smoothing: antialiased;
+    user-select: none;
+    cursor: default;
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    box-sizing: inherit;
+    will-change: transform;
+    position: absolute;
+    color: #fff;
+    background-color : violet;
+    font-size: 16px;
+    z-index: 2;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 2em;
+    transform-origin: 50% 12.5%;
+    top: 2em;
+    width: 850px;
+    opacity: 1;
+    transform: none;
+    min-width: 850px;
+}
+.video-fluid {
+    padding : 10px;
+    height: 200px;
+}
+a {
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    cursor: pointer;
+    color: #fff;
+}
+
+a {
+    background-color: transparent;
+}
+
+a {
+    background-color: transparent;
+}
+
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+.previewModal--tags .tag-item, .previewModal--tags .tag-more {
+    color: #ddd;
+    margin: 0;
+    cursor: pointer;
+    outline-color: #fff;
+}
+
+.previewModal--container {
+    will-change: transform;
+    position: absolute;
+    color: #fff;
+    background-color: transparent;
+    font-size: 16px;
+    z-index: 2;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    overflow: hidden;
+}
