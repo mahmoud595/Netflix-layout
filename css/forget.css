@@ -53,6 +53,9 @@ input[type="radio"] {
   width: 10%;
   height: 1.5em;
 }
+input:required {
+  border: 1px solid red;
+}
 label {
   margin-bottom: 30px;
 }

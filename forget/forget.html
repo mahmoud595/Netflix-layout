@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SingIn</title>
+    <title>Forget</title>
     <link rel="stylesheet" href="/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/css/all.min.css" />
     <link rel="stylesheet" href="/css/forget.css" />
@@ -56,13 +56,13 @@
                     We will send you an email with instructions on how to reset your password.
                 </p>
             </div>
+            <form>
             <input type="email" data-uia="forgot_password_input" class="ui-text-input error" name="forgot_password_input" id="forgot_password_input" placeholder="name@example.com"
-            tabindex="0">
-           
-
+            tabindex="0" required>
             <div>
-                <button id="selectbtn"type="button" class="submit btn btn-primary btn-lg btn-block"> Email Me </button>
+                <button id="selectbtn"type="submit" class="submit btn btn-primary btn-lg btn-block"> Email Me </button>
             </div>
+          </form>
           </div>
           <a class=""> I don't remember my email or phone.</a>
         </div>
