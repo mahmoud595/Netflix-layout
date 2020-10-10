@@ -1,0 +1,63 @@
+.navbar .navbar-nav .nav-item .nav-link i {
+	font-size: 1.25rem;
+	color: #fff;
+}
+.scrolling-active {
+	background-color: rgb(20, 20, 20) !important;
+	transition: background-color 0.6s ease-in-out;
+}
+.bg-transparent {
+	transition: background-color 0.6s ease-in-out;
+}
+
+.drop-profile {
+	background-color: #010100 !important;
+}
+.drop-profile a {
+	color: #fff;
+}
+.drop-profile a:hover {
+	text-decoration: underline;
+	background-color: black;
+	color: #fff;
+}
+body {
+	background-color: rgb(0, 0, 0, 0.75);
+	height: 3000px;
+}
+
+.drop-notification {
+	background-color: #010100 !important;
+	color: #fff;
+	left: -290px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	width: 350px;
+	height: 300px;
+}
+.drop-notification a:hover {
+	background-color: black;
+	color: #fff;
+}
+a.notification::after {
+    content: "";
+    display: none;
+}
+
+.search-box {
+    
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #010100;
+}
+input[type="search"] {
+    border: none;
+    background: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.2s ease;
+    line-height: 40px;
+    width: 100%;
+}
